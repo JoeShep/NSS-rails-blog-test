@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AnonymousPostsArticleTest < ActionDispatch::IntegrationTest
+class AnonymousBrowsesArticleTest < ActionDispatch::IntegrationTest
   test "view a list of articles" do
     Post.create!(title: "First Post!!", body: "This is awkward... I have nothing to say")
     Post.create!(title: "Wow, it's been a while!", body: "And yet, I'm still not a writer")
