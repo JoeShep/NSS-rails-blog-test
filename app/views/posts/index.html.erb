@@ -3,5 +3,7 @@
 <ul>
   <% @posts.each do |post| -%>
     <li><%= post.title %></li>
-      <% end -%>
+      <% end %>
 </ul>
+
+<%= link_to "Write Post", new_post_path %>
